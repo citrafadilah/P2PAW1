@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+/* element selector */
+body {
+    background-color: #67729D;
+    font-family: Verdana;
+    color: #1B1A55;
+}
+
+/* class selector */
+.text-primary {
+    color: #1B1A55;
+}
+
+.col {
+    width: 25%;
+    float: left;
+}
+
+.col-50 {
+    width: 50%;
+    float: left;
+}
+.img-responsive {
+    width: 100%;
+    max-height: 500px;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.rounded {
+    border-radius: 20px;
+}
+
+.p-1 {
+    padding: 10px;
+}
