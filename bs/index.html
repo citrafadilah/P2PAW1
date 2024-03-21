@@ -23,18 +23,90 @@
             </div>
         </div>
 
-        <!-- mt itu margin top buat jarak -->
-        <div class="row mt-3"> 
-            <div class="col-lg-12">
-                <!-- img banner -->
-                <img src="img/banner.jpg" alt="" class="img-fluid"/>
-            </div>
+        <!-- Carousel -->
+        <div id="demo" class="mt-3 carousel slide" data-bs-ride="carousel">
+
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
         </div>
+  
+        <!-- The slideshow/carousel -->
+        <div class="carousel-inner">
+         <div class="carousel-item active">
+            <img src="img/banner.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="img/banner.jpg" alt="" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+            <img src="img/banner.jpg" alt="" class="d-block w-100">
+      </div>
+    </div>
+  
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+         </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+  
+
+        <!-- mt itu margin top buat jarak -->
+        <!-- <div class="row mt-3"> 
+            <div class="col-lg-12">
+                < img banner -->
+                <!--- <img src="img/banner.jpg" alt="" class="img-fluid"/>
+            </div> -->
+        </div>
+
+        <h2 class="mt-3">Upcoming</h2>
+        <div class="row">
+            <div class="col-lg-6">
+                <img src="img/halo.jpg" alt="" class="d-block w-100 rounded">
+                <h5>Halo</h5>
+                24 Mar 2022
+            </div>
+
+            <div class="col-lg-6 col-sm-12">
+                <div class="row">
+                    <div class="col-lg-6 p-2 col-sm-6">
+                        <img src="img/damsel.webp" alt="" class="img-fluid rounded">
+                        <h5>Damsel</h5>
+                        08 Mar 2024
+                    </div>
+        
+                    <div class="col-lg-6 p-2 col-sm-6">
+                        <img src="img/masters.webp" alt="" class="img-fluid rounded">
+                        <h5>Masters of the Air</h5>
+                        25 Jan 2024
+                    </div>
+        
+                    <div class="col-lg-6 p-2 col-sm-6">
+                        <img src="img/taylor.webp" alt="" class="img-fluid rounded">
+                        <h5>TAYLOR SWIFT | THE ERAS TOUR</h5>
+                        Nov 03, 2023
+                    </div>
+
+                    <div class="col-lg-6 p-2 col-sm-6">
+                        <img src="img/madame.webp" alt="" class="img-fluid rounded">
+                        <h5>Madame Web</h5>
+                        Feb 14, 2024
+                    </div>
+                </div>
+                </div>
+            </div>
+
+           
 
         <h2>Now Playing</h2>
         <div class="row">
             <div class="col-lg-2 col-sm-4">
-                <img src="img/dune.webp" alt="" class="img-fluid rounded">
+                <img src="img/dune.webp" alt="" class="d-block w-100">
                 <h5>Dune: Part Two</h5>
                 28 Feb 2024
             </div>
@@ -64,8 +136,89 @@
                 06 Des 2023
             </div>
         </div>
+        <!-- akhir now playing -->
+
+        <!-- awal sign up -->
+        <div class="row">
+            <div class="col-lg-3">
+                <!-- teks benefit -->
+                <div class="card mt-3">
+                    <div class="card-body">
+                        <h2 class="bg-primary rounded text-white p-2">Benefit of being a member</h2>
+                        <p class="card-text"></p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Find something to watch on your subscribed streaming services</li>
+                            <li class="list-group-item">Log the movies and TV shows you have watched</li>
+                            <li class="list-group-item">Keep track of your favourite movies and TV shows and get recommendations from them</li>
+                            <li class="list-group-item">Build and maintain a personal watchlist</li>
+                            <li class="list-group-item">Build custom mixed lists (movies and TV)</li>
+                            <li class="list-group-item">Take part in movie and TV discussions</li>
+                            <li class="list-group-item">Contribute to, and improve the information in our database</li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <!-- form sign up -->
+                <h2>Sign up for an account</h2>
+                <p>Signing up for an ccount is free and easy. Fill out the form below
+                    to get started. JavaScript is required to to continue.
+                </p>
+
+                <form action="">
+                    <div class="mb-3">
+                        <label for="" class="form-label">Username</label>
+                        <input type="text" class="form-control"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="" class="form-label">Password (4 characters minimum)</label>
+                        <input type="password" class="form-control border border-primary"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="" class="form-label">Password Confirm</label>
+                        <input type="password" class="form-control"/>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="" class="form-label">Email</label>
+                        <input type="email" class="form-control border border-primary"/>
+                    </div>
+                    <button class="btn btn-default btn-primary">Sign Up</button>
+                </form>
+            </div>
+        </div>
+        <!-- akhir sign up -->
+
+        <!-- awal footer -->
+        <div class="row bg-primary mt-3 text-white p-3">
+            <div class="col-lg-4">
+                <img src="img/logo2.svg" alt="" class="d-block w-50">
+            </div>
+            <div class="col-lg-2">
+                <h2>The Basics</h2>
+                <a href="#" class="text-white">About Us</a> <br>
+                <a href="#" class="text-white">Contact Us</a>
+            </div>
+            <div class="col-lg-2">
+                <h2>Get Involved</h2>
+
+            </div>
+            <div class="col-lg-2">
+                <h2>Community</h2>
+            </div>
+            <div class="col-lg-2">
+                <h2>Legal</h2>
+            </div>
+        </div>
+
+        <!-- akhir footer -->
 
 
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
 </body>
 </html>
